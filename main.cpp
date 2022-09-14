@@ -25,7 +25,7 @@ bool checkValid(long const num) {
     return false;
 }
 
-//cardNetwork function checks various conditions of different card networks.
+//cardNetwork function checks various conditions of different card networks. 
 string cardNetwork(long const num) {
     string numString=to_string(num);
     if(numString[0]=='4' && (numString.length()==16 ^ numString.length()==13)) return "VISA";
