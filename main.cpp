@@ -8,7 +8,7 @@ int doubleDigit(int digit) {
     return digit%10+digit/10;
 }
 
-//checkValid function is used to check whether the card number is valid or not using Luhn's Algorithm.
+//checkValid function is used to check whether the card number is valid or not using Luhn's Algorithm. 
 bool checkValid(long const num) {
     string numString=to_string(num);
     int n=numString.length();
